@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-#include <stidio.h>
+#include <stdio.h>
 
 int main(void)
 {
