@@ -6,10 +6,11 @@
  *
  * Return: 0
  */
+
+#include <stidio.h>
+
 int main(void)
 {
-	int letter;
-
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
@@ -18,7 +19,7 @@ int main(void)
 			putchar(letter);
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
