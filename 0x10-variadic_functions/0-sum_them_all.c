@@ -7,7 +7,7 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	/* create a va_list to store the variable arguments list */
+	/* creating va_list to store the variable argument list */
 	va_list my_nums;
 	unsigned int count;
 	int sum;
